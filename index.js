@@ -5,7 +5,7 @@ function displayRepoList(repoHTMLStr) {
 
 function clearResultsAndForm() {
     //clear form and results from the DOM
-    $(".results").html("");
+    $(".results").empty();
     $("#js-username").val("");
 }
 
